@@ -1,0 +1,14 @@
+<ul>
+  <li *ngFor="let info of infos">
+    <div class="card">
+      <div class="container">
+        <h4>
+          <b>Current Value: {{ info.counter }}</b>
+        </h4>
+        <p>{{ today | date: " MMMM d, h:mm" }}</p>
+        <span>Prev Value: {{ info.previousValue }}</span>
+      </div>
+    </div>
+    <hr />
+  </li>
+</ul>

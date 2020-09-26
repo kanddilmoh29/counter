@@ -1,0 +1,13 @@
+button {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.wrapper {
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73ad21;
+  padding: 10px;
+  text-align: center;
+}
